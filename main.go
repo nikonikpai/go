@@ -3,6 +3,10 @@ package main
 import "fmt"
 
 func main() {
-	saeed := true
-	fmt.Println(saeed)
+	fmt.Println(true && true)
+	fmt.Println(true && false)
+	fmt.Println(true || true)
+	fmt.Println(true || false)
+	fmt.Println(!true)
+
 }
